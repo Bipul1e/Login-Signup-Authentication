@@ -14,7 +14,7 @@ function App() {
           <Route
             path="/"
             element={
-              userstate && userstate._id ? (
+              userstate && userstate.email ? (
                 <Profile
                   setUserState={setUserState}
                   username={userstate.fname}
